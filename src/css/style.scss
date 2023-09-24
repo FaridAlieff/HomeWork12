@@ -1,0 +1,242 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+  @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&family=Rancho&display=swap');
+ 
+/* Genel stiller */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header stilleri */
+header {
+    background-image: url('../img/breadcrumb_bg01.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    padding: 20px 0;
+    height: 70vh;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 70px;
+}
+
+.logo img {
+    max-width: 180px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: 'Barlow', sans-serif;
+
+}
+
+.search-button .ionicon {
+    background-color: none;
+    border: none;
+    font-size: 50px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+.menu-button .ionicon {
+    font-size: 50px;
+}
+
+.search-button button img,
+.menu-button button img {
+    max-width: 30px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.cursor {
+    width: 10px;
+    height: 10px;
+    background-color: #44F881;
+    border-radius: 50%;
+    position: absolute;
+    pointer-events: none; 
+}
+.tgmenu__action .header-btn {
+    padding-left: 25px;
+}
+
+.tgmenu__action .header-btn::before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 6px;
+    height: 28px;
+    background-color: #131b22;
+    box-shadow: inset 0px 3px 7px 0px rgba(0, 0, 0, 0.61);
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.tgmenu__action > ul li a {
+    color: var(--tg-heading-color);
+}
+.tg-border-btn {
+    display: inline-flex;
+    font-family: var(--tg-heading-font-family);
+    color: var(--tg-common-color-white);
+    font-weight: var(--tg-fw-extra-bold);
+    text-transform: uppercase;
+    padding: 10px 20px;
+    font-size: 15px;
+    letter-spacing: 0.8px;
+    position: relative;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 157px;
+    min-height: 48px;
+    z-index: 1;
+}
+a, button {
+    color: var(--tg-theme-primary);
+    outline: none;
+    text-decoration: none;
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+}
+a {
+    color: #0d6efd;
+    text-decoration: underline;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+kullanıcı aracısı stil sayfası
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.tg-border-btn::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background: var(--tg-theme-primary);
+    clip-path: polygon(27px 0, calc(85% - 3px) 0, 100% 50%, calc(85% - 1px) 100%, 24px 100%, 0% 50%);
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+    opacity: 0;
+    z-index: -1;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+.tgmenu__action > ul li a {
+    color: var(--tg-heading-color);
+}
+.tg-border-btn {
+    display: inline-flex;
+    font-family: var(--tg-heading-font-family);
+    color: var(--tg-common-color-white);
+    font-weight: var(--tg-fw-extra-bold);
+    text-transform: uppercase;
+    padding: 10px 20px;
+    font-size: 15px;
+    letter-spacing: 0.8px;
+    position: relative;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+a, button {
+    color: var(--tg-theme-primary);
+    outline: none;
+    text-decoration: none;
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+}
+a {
+    color: #0d6efd;
+    text-decoration: underline;
+}
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+}
+
+/* Diğer stiller */
+
+/* Resmi sağ üst köşeye taşıyın */
+.image {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    max-width: 200px; /* Resmin genişliğini ayarlayın */
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Resim üzerine gelindiğinde titreşim efekti */
+.shaking-image:hover {
+    transform: translateX(-5px);
+    animation: shake 0.3s ease-in-out infinite;
+}
+
+@keyframes shake {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(-5px);
+    }
+    50% {
+        transform: translateX(5px);
+    }
+    75% {
+        transform: translateX(-5px);
+    }
+}
+

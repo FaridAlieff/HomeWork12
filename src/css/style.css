@@ -1,0 +1,83 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&family=Rancho&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Genel stiller */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Header stilleri */
+header {
+  background-image: url("../img/breadcrumb_bg01.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  padding: 20px 0;
+  height: 70vh;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 70px;
+}
+
+.logo img {
+  max-width: 180px;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+}
+
+.menu li {
+  margin-right: 20px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-family: "Barlow", sans-serif;
+}
+
+.search-button button .ionicon,
+.menu-button button {
+  background-color: none;
+  border: none;
+  font-size: 30px;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.search-button button img,
+.menu-button button img {
+  max-width: 30px;
+}
+
+/* Genel stiller */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Fare imleci stil */
+.cursor {
+  width: 10px;
+  height: 10px;
+  background-color: #44F881;
+  border-radius: 50%;
+  position: absolute;
+  pointer-events: none; /* Fare imleci üzerindeki tıklamaları engeller */
+}/*# sourceMappingURL=style.css.map */
